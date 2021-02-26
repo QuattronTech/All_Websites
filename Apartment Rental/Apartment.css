@@ -1,0 +1,229 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav{
+    display: none;
+}
+
+.all{
+    width: 95%;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+
+header h2{
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+header{
+    margin-top: 0px;
+    padding-right: 0px;
+    width: 100% !important;
+}
+
+/* nav */
+.nav{
+    background-color: rgb(243, 241, 241);
+    position: fixed;
+    height: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 25%;
+    float: left;
+}
+
+.rental{
+    margin-left: 20px;
+}
+
+.book{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.booking{
+    padding: 7px;
+    width: 165px;
+}
+
+.p-margin{
+   margin-bottom: 26px;
+}
+
+.book-button{
+    width: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgb(29, 165, 29);
+    color: white;
+}
+
+.book-button:hover{
+    background-color: rgb(180, 180, 180);
+}
+
+.asc{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+/* The Apartment */
+
+.the-apartment img{
+    width: 100%;
+}
+.apartment-img-3 img{
+    width: 32.9%;
+}
+
+/* The space */
+
+
+.space-info{
+    float: left;
+}
+
+.right{
+    margin-right: 30%;
+    float: right;
+}
+
+
+/* Amenities */
+.amenities{
+    margin-top: 170px;    
+}
+
+.amenities-info{
+    float: left;
+}
+
+.right-amenities{
+    float: right;
+    margin-right: 36%;
+}
+
+/* Extra info */
+.extra-info{
+    margin-top: 180px;
+}
+
+/* Rules */
+.button{
+    padding: 7px 100px;
+    text-decoration: none;
+    background-color: rgba(29, 165, 29, 0.692);
+    color: white;
+}
+
+.button:hover{
+    background-color: rgb(180, 180, 180);
+}
+
+/* Contact */
+.contact{
+    margin-top: 25px;
+}
+
+.info-box{
+    width: 100%;
+    height: 40px;
+}
+
+.crated{
+    margin-top: 50px;
+}
+
+
+/* Media Quary */
+@media (min-width: 1024px){
+    .right-amenities{
+        margin-right: 38%;
+    }
+}
+
+/* Media Quary */
+@media (min-width: 1000px){
+
+    header{
+        display: none;
+    }
+
+    .nav{
+        display: initial;
+        padding-top: 0px;
+        max-width: 260px;
+    }
+
+    .all{
+        width: 73%;
+        margin-left:0px;
+        margin-right: 10px;
+        float: right;
+    }
+
+}
+
+/* Media Quary */
+@media (min-width: 768px){
+    .right-amenities{
+        margin-right: 38.5%;
+    }
+
+    .info-box{
+        margin-bottom: 10px;
+    }
+
+}
+
+/* Media Quary */
+@media (max-width: 600px){
+
+    .apartment-img-3 img{
+        width: 32.6%;
+    }
+
+    .right{
+        margin-right: 0%;
+    }
+
+    .right-amenities {
+        float: right;
+        margin-right: 15%;
+    }
+
+    .info-box{
+        width: 98%;
+    }
+}
+
+@media (max-width: 320px){
+
+    .apartment-img-3 img{
+        width: 32.4%;
+    }
+
+    .right{
+        margin-right: 0%;
+    }
+
+}
+
+/* Media Quary */
+@media (min-width: 280px){
+
+    .button{
+        padding: 7px 80px;
+    }
+}

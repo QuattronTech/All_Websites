@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Apartment.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Apartment</title>
+</head>
+<body>
+
+    <header>
+        <h2>Rental</h2>
+    </header>
+
+    <nav class="nav">
+        <div class="rental">
+            <h2>Rental</h2>
+            <h2>from $99</h2>
+            <p>per night</p>
+        </div>
+
+        <div class="book">
+            <form action="#">
+                <p><i class="far fa-calendar-check"></i> Check In</p>
+                <p><input type="date" placeholder="Name" class = "booking"></p>
+
+                <p><i class="far fa-calendar"></i> Check Out</p>
+                <p><input type="date" placeholder="Name" class = "booking"></p>
+
+                <p><i class="fas fa-male"></i> Adults</p>
+                <p><input type="number" min = '1' max = '6' placeholder="1" class = "booking"></p>
+
+                <p><i class="fas fa-child"></i> Kids</p>
+                <p class="p-margin"><input type="number" min = '0' max = '6' placeholder="0" class = "booking"></p>
+                
+                <a href="#" class="book-button"><i class="fas fa-search"></i> Search Availbility</a>
+            </form>
+        </div>
+
+        <div class="asc">
+            <p><i class="fas fa-building"></i> Apartment</p>
+            <p><i class="fas fa-rss"></i> Subscribe</p>
+            <p><i class="fas fa-envelope"></i> Contact</p>
+        </div>
+    </nav>
+
+    <div class="all"> 
+        <!-- The Apartment -->
+        <div class="the-apartment">
+            <h2 class="tittle">The Apartment</h2>
+            <img src="livingroom.jpg" alt="livingroom_IMG">
+
+            <div class="apartment-img-3">
+                <img src="bedroom.jpg" alt="bedroom_IMG">
+                <img src="diningroom.jpg" alt="diningroom_IMG">
+                <img src="livingroom2.jpg" alt="livingroom2_IMG">
+            </div>
+        </div>
+
+        <!-- The Space -->
+
+        <div class="space">
+            <h2 class="space-tittle">
+                The Space
+            </h2>
+
+            <div class="space-info">
+                <p><i class="fas fa-male"></i> Max people: 4</p>
+                <p><i class="fa fa-fw fa-bath"></i> Bathrooms: 2</p>
+                <p><i class="fas fa-bed"></i> bedrooms: 1</p>
+            </div>
+
+            <div class="right">
+                <p><i class="fas fa-clock"></i> Check In: After 3PM</p>
+                <p><i class="fas fa-clock"></i> Check Out: 12PM</p>
+            </div>
+        </div>
+
+        <!-- Amenities -->
+
+        <div class="amenities">
+            <hr>
+
+            <h2>Amenities</h2>
+
+            <div class="amenities-info">
+                <p><i class="fas fa-shower"></i> Shower</p>
+                <p><i class="fas fa-wifi"></i> WiFi</p>
+                <p><i class="fas fa-tv"></i> TV</p>
+            </div>
+
+            <div class="right-amenities">
+                <p><i class="fas fa-utensils"></i> Kitchen</p>
+                <p><i class="fas fa-thermometer-half"></i> Heating</p>
+                <p><i class="fas fa-wheelchair"></i> Accessible</p>
+            </div>
+        </div>
+
+        <!-- Extra info -->
+
+        <div class="extra-info">
+            <hr>
+            <h2>Extra Info</h2>
+            <p>Our apartment is really clean and we like to keep it that way. Enjoy the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>We accept: <i class="fa fa-credit-card w3-large"></i> <i class="fab fa-cc-mastercard w3-large"></i> <i class="fab fa-cc-amex"></i> <i class="fab fa-cc-paypal"></i></p>
+        </div>
+
+        <!-- Rules -->
+
+        <div class="rules">
+            <hr>
+            <h2>Rules</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Subscribe to receive updates on available dates and special offers.</p>
+            <a href="#" class="button">Subscribe</a>
+        </div>
+
+        <!-- Contact -->
+        <div class="contact">
+            <hr>
+            <h2>Contact</h2>
+            <p><i class="fas fa-map-marker-alt"></i> Chicago, US</p>
+            <p><i class="fas fa-phone-alt"></i> Phone: 540 000 0000</p>
+            <p><i class="fas fa-envelope"></i> Email: Example@gmail.com</p>
+            <p>Questions? Go ahead, ask them:</p>
+
+            <form action="#">
+                <p><input type="text" placeholder="Name" class = "info-box"></p>
+                <p><input type="email" placeholder="Email " class="info-box"></p>
+                <p><input type="text" placeholder="Message " class="info-box"></p>
+                <a href="#" class="button">Send a Message</a>
+            </form>
+            <p class="crated">Crated By Quattron Tech</p>
+        </div>
+
+    </div>
+</body>
+</html>
+
