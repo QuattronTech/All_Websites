@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <title>Akhtar Website</title>
+    </head>
+
+    <body>
+       
+        <div class="topnav">
+         
+            <a href="#home-page" class="active">The Band</a>
+              
+            <div id="myLinks">
+              <a href="#home-page">HOME</a>
+              <a href="#the-band">BAND</a>
+              <a href="#tour-and-ticket">TOUR</a>
+              <a href="#contact">CONTACT</a>
+            </div>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+
+        </div>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>
+
+        <div class="navbar">
+
+            <ul>
+                <li><a href ="#home-page">HOME</a></li>
+                <li><a href ="#the-band">BAND</a></li>
+                <li><a href ="#tour-and-ticket">TOUR</a></li>
+                <li><a href ="#contact">CONTACT</a></li>
+            </ul>
+
+        </div>
+
+        <div class="home-page" id = "home-page">
+            <img src="la.jpg" class="main-page-background-img">
+        </div>
+
+        <!-- THE BAND -->
+        <div class="the-band" id = "the-band">
+            <h1 class="band-tittle">
+                THE BAND
+            </h1>
+
+            <h1 class="band-sub-tittle">
+                We love music
+            </h1>
+
+            <p class="the-band-text">
+                Lorem text ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo  mollit anim id est laborum consequat.
+            </p>
+
+        </div>
+
+        <div class="img-3">
+            <ul class="img-33">
+                <h3 class="img-name">Artist</h3>
+                <img src="bandmember.jpg" alt="a dude img">
+            </ul>
+
+            <ul class="img-33">
+                <h3 class="img-name">Manager</h3>
+                <img src="bandmember.jpg" alt="a dude img">
+            </ul>
+
+            <ul class="img-33"> 
+                <h3 class="img-name">DJ</h3>
+                <img src="bandmember.jpg" alt="a dude img">
+            </ul>
+
+        </div>
+        
+        <!-- END OF THE BAND -->
+
+
+
+        <!-- TOUR DATES -->
+        <div class="tour-and-ticket" id = "tour-and-ticket">
+
+            <div class="tour-dates">
+                <div class="tour-tittle">
+                    <h1>TOUR DATES</h1>
+                    <p>Remeber to book your tickets!</p>
+                </div>
+
+                <div class="ticket"> 
+                    <ul class="background">
+                        <li class="padding">
+                            September
+                            <span class="red margin-left">Sold Out</span>
+                        </li>
+
+                        <li class="padding">
+                            October
+                            <span class="right margin-right">36</span>
+                        </li>
+
+                        <li class="padding"> 
+                            November
+                            <span class="red margin-left">Sold out</span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="places">
+
+                <ul class="places-img">
+                    <img src="newyork.jpg" alt="New York" >
+                    <div class="places-text">
+                        <h3>New York</h3>
+                        <h3 class="date">Sun 22 Nov 2020</h3>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <h2 class="buy">Buy Tickets</h2>
+                        <h1 class="space-for-buy-tickest"></h1>
+                    </div>
+                </ul>
+
+                <ul class="places-img">
+                    <img src="newyork.jpg" alt="New York">
+                    <div class="places-text">
+                        <h3>New York</h3>
+                        <h3 class="date">Sun 22 Nov 2020</h3>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <h2 class="buy">Buy Tickets</h2>
+                        <h1 class="space-for-buy-tickest"></h1>
+                    </div>
+                </ul>
+                
+                <ul class="places-img">
+                    <img src="newyork.jpg" alt="New York">
+                    <div class="places-text">
+                        <h3>New York</h3>
+                        <h3 class="date">Sun 22 Nov 2020</h3>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <h2 class="buy">Buy Tickets</h2>
+                        <h1 class="space-for-buy-tickest"></h1>
+                    </div>
+                </ul>
+
+            </div>
+    
+        </div>
+        <!-- THE END OF TOUR DATES -->
+
+        <!-- Contact -->
+
+        <div class="contact" id = "contact">
+            <div class="contact-title">
+                <h1>CONTACT</h1>
+                <p>Fan? Drop a note!</p>
+            </div>
+
+            <div class="contact-div">
+
+                <div class="location-and-info">
+                    <i class="fa fa-map-marker" style="width:30px"></i> Example, US<br>
+                    <i class="fa fa-phone" style="width:30px"></i> Phone: 540 000 0000<br>
+                    <i class="fa fa-envelope" style="width:30px"> </i> Email: Example@gmail.com<br>
+                </div>
+
+                <section class="reserve-sec">
+            
+                    <form class="contact-div">
+
+                        <input type="text" class="input-style" placeholder="Name">
+
+                        <input type="email" class="input-style"  placeholder="Email">
+                        
+                        <input type="text" class="long-one" placeholder="Message">
+                      
+                        <button class="button-style right" type="submit">
+                            SEND
+                        </button>
+
+                    </form>
+                
+                </section>
+                
+            </div>
+
+        </div>
+
+        <!-- End of Contact -->
+
+        <!-- Almost footer-->
+        <div class="map-img">
+            <img src="newyork.jpg" class="map-img">
+        </div>
+
+        <footer class="icons" id = "icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-snapchat"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </footer>
+        <!-- End of almost footer -->
+    </body>
+</html>
