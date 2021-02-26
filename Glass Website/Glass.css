@@ -1,0 +1,234 @@
+body{
+    background-color: rgba(173, 216, 230, 0.5);
+    overflow-y: hidden;  /*Hide vertical scrollbar */
+    overflow-x: hidden;  /*Hide horizontal scrollbar */
+    margin-top: 7% !important;
+    margin-bottom: inherit !important
+}
+
+.all{
+    max-width: 1000px;
+    padding-bottom: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(173, 216, 230, 0.308);
+    border-radius: 10px;
+}
+
+/* left */
+.left{
+    float: left;
+    padding: 30px 30px;
+    padding-bottom: 57px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(173, 216, 230, 0.658);
+    margin-right: 50px;
+    width: 200px;
+}
+
+.name{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.pro{
+    margin-top: 0px;
+}
+
+.social{
+    padding-bottom: 70px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.links img{
+    width: 15% !important;
+    margin-left: 20%;
+}
+
+.links h2{
+    text-align: center;
+    margin-left: 10px;
+}
+
+.join{
+    background-color: lightskyblue;
+    border-radius: 10px;
+    display: flex;
+    text-align: initial;
+}
+
+ul{
+    width: 100%;
+    padding: 0px;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+li{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.img-right{
+    width: 40%;
+    margin-bottom: 16px;
+}
+
+/* right side */
+.active{
+    display: flex;
+    /*background-color: maroon;*/
+    margin-bottom: 136px;
+    height: 20px;
+    width: 45%;
+}
+
+.games{
+    display: flex;
+    background-color: rgba(173, 216, 230, 0.658);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    max-width: 550px;
+}
+
+
+.games img{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 50px;
+    width: 80px;
+    height: 80px;
+}
+
+.game-tittle{
+    margin-bottom: 0px;
+}
+
+.percentage{
+    float: right;
+    color: lightskyblue;
+}
+
+.ps5{
+    margin-top: 5px;
+}
+
+.white{
+    background-color:lightgray;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.gray{
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+
+/* Media Quers */
+@media (max-width: 500px){
+    body{
+        background-color: whitesmoke;
+        overflow-y: initial;
+        overflow-x: initial;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .all{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .left{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: inherit;
+    }
+
+    .join{
+        display: none;
+    }
+
+    .games{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .games img{
+        margin-right: 10px;
+    }
+
+
+    .games ul{
+        margin-right: 15px;
+    }
+
+    div .white {
+        height: 20px;
+        width: 80% !important;
+    }
+
+    .active{
+        height: 20px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .active .game-tittle{
+        display: none;
+    }
+
+    .active .white{
+        display: none;
+    }
+
+    .social{
+        padding-bottom: 0px;
+    }
+
+
+}
+
+@media (max-width: 280px){
+
+    .percentage{
+        float:initial;
+    }
+
+    div .white {
+        height: 20px;
+        width: initial;
+    }
+
+    div .gray {
+        height: 20px;
+        width: initial;
+    }
+
+    .white {
+        background-color: lightgray;
+        margin-left: 10px;
+        border-radius: 10px;
+        height: 20px !important; 
+        width: 100% !important;
+    }
+
+    .social{
+        padding-bottom: 0px;
+    }
+
+    .active{
+        height: 20px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+}
