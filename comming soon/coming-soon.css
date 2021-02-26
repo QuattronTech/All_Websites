@@ -1,0 +1,49 @@
+body,h1,h2 {
+    font-family: "Raleway", sans-serif; 
+    color: lightblue;
+}
+
+.main-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+hr{
+    max-width: 50%;
+}
+
+h2{
+    font-size: 28px;
+
+}
+
+.logo{
+    float: left;
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+.powered{
+    position: absolute;
+    float: left;
+    margin-left: 2%;
+    bottom: 0;
+}
+
+body, html {
+    height: 100%
+}
+
+body{
+    background-image: url('forestbridge.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
